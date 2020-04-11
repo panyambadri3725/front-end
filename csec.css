@@ -1,0 +1,30 @@
+#b{
+	
+	animation : ani 10s ease-in-out infinite;
+		
+}
+@keyframes ani{
+	0%,100%{
+		background-image: url(1.jfif);
+	}
+	33% { border-image: url(2.jfif); 
+	}
+	66%{
+		border-image: url(3.jfif);
+	}
+}
+
+ul li{
+	text-transform: uppercase;
+	text-align: right;
+	display: inline-block;
+font-size: 20px;
+margin-right: 20px;
+padding: 20px;
+}
+ul{
+
+	list-style: none;
+	padding: 0;
+	text-align: right;
+}
