@@ -7,10 +7,10 @@
 	0%,100%{
 		background-image: url(1.jfif);
 	}
-	33% { border-image: url(2.jfif); 
+	33% { background-image: url(2.jfif); 
 	}
 	66%{
-		border-image: url(3.jfif);
+		background-image: url(3.jfif);
 	}
 }
 
