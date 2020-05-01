@@ -1,0 +1,258 @@
+ 
+    body{
+        background: black;
+    }
+
+    #s{
+        text-align: left;
+        margin-left: 40px;
+        padding-left: 300px;
+        padding-right: 300px;
+        color: black;
+        font-size: 25px;
+        font-weight: 20px;
+        display:flex;
+       background: yellow;
+        text-align: center;
+
+    }
+    #boxl{
+        width: 33%;
+
+    }
+    #boxm{
+        width: 33%;
+        
+    }
+    #boxr{
+        width: 33%;
+        
+    }
+    #b1{
+        color: white;
+        padding-left: 150px;
+        font-size: 20px;
+    }
+  #bo1{
+        padding-left: 70px;
+    }
+    #bo2{
+        padding-left: 70px;
+    }
+    #bo3{
+        padding-left: 50px;
+    }
+    #box2{
+        display: flex;
+    }
+    #o1{
+        width: 33%;
+    }
+    #o2{
+        width: 33%;
+    }
+    #o3{
+        width: 33%;
+    }
+#box21{
+    color:white;
+    font-size: 20px;
+    padding-left: 150px;
+}
+#box22{ padding-left: 170px;
+    color:white;
+    font-size: 20px;
+}
+#box23{ padding-left: 150px;
+    color:white;
+    font-size: 20px;
+}
+    #b2{
+        color: white;
+        padding-left: 150px;
+        font-size: 20px;
+    }
+    #bi1{
+        padding-left: 70px;
+    }
+    #bi2{
+        padding-left: 70px;
+    }
+    #bi3{
+        padding-left: 50px;
+    }
+    #b3{
+        color: white;
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    .box{
+        display: flex;
+        color: white;
+
+    }
+    #p5{
+        text-align: center;
+        text-shadow: 0 0 10px yellow,0 0 0 20px yellow,  0 0 30px yellow;
+        font-size: 40px;
+
+    }
+    #i1{
+       
+    animation : ani 10s ease-in-out infinite;
+    background-size:cover;
+   
+    }
+    @keyframes ani{
+    0%,100%{
+        background-image: url("1.jfif");
+    }
+    25%,75%{
+        background-image: url("2.jfif");
+    }
+    50%{
+        background-image: url("3.jfif");
+    }
+
+}
+    #c2{
+        padding-left: 90px;
+    }
+    #d{
+        font-size: 45px;
+        color: yellow;
+        text-align: center;
+        text-shadow: 0 0 10px gold, 0 0 20px gold , 0 0 30px gold;
+    }
+    .container{
+        display: flex;
+    }
+    #l{
+        width: 33%;
+        color: white;
+    }
+    #m{
+        width: 33%;
+        color: white;
+    }
+    #r{
+        width: 33%;
+        color: white;
+    }
+ #e{
+    color: white;
+
+ }
+ #i2{
+    padding-left: 50px;
+ 
+ }
+ #i3{
+    padding-left: 40px;
+
+ }
+ 
+ #i4{padding-left: 55px;}
+    #p2 {
+        text-align: center;
+            text-shadow: 0 0 10px pink, 0 0 20px pink, 0 0 30px pink;
+            font-size: 25px;
+    }
+
+    #p3 {
+        text-align: center;text-shadow: 0 0 10px violet, 0 0 20px violet, 0 0 30px violet;
+          font-size: 25px;
+    }
+
+    #p4 {  font-size: 25px;
+        text-align: center;
+            text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+    }
+   #c{
+    color: yellow;
+    padding-left: 90px;
+font-size: 30px;
+   }
+   #i{
+    float: right;
+    padding-right: 100px;
+   }
+   h2{
+    color: yellow;
+   }
+   #c1{
+    color: white;
+    font-size: 25px;
+    padding-left: 50px;
+   }
+   .con{
+    height: 1000px;
+   }
+   #c2{
+    color: white;
+   }
+    #aa{
+        margin: 0px;
+        padding: 0px;
+        color: orange;
+        display: flex;
+        justify-content: 25%;
+        align-items: left;
+        background: black;
+        font-family: consolas;}
+
+    
+    h1{
+        display:inline-block;
+        position: relative;
+        padding: 10px 500px;
+        color: yellow;
+        text-decoration: none;
+        font-size: 30px;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5%;}
+        h1{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJ2h5q8psFYh0oSbZDY4yxicBWIXUqrxPhTOUd7KvoZCPEJW4y&usqp=CAU");
+        background-size: cover;
+    }
+    h1:hover{
+        color: black;
+        box-shadow: 0 0 10px gold, 0 0 40px gold, 0 0 80px gold;
+background: yellow;
+    }
+      #l:hover{
+        color: black;
+        box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+background: red;
+    }
+     #l{
+        display:inline-block;
+    
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5%;
+    }
+    #m:hover{
+        color: black;
+        box-shadow: 0 0 10px purple, 0 0 40px purple, 0 0 80px purple;
+background: purple;
+    }
+     #m{
+        display:inline-block;
+    
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5%;
+    }#r:hover{
+        color: black;
+        box-shadow: 0 0 10px blue, 0 0 40px blue, 0 0 80px blue;
+background: blue;
+    }
+     #r{
+        display:inline-block;
+    
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5%;
+    }
